@@ -31,6 +31,12 @@ public:
 		height = 640;
 		fullscreen = false;
 		read_init_file();
+		if (windowx == 0)
+		{
+			windowx = width;
+		}
+		width = windowx;
+		height = windowy;
 	}
 
 	void read_init_file()

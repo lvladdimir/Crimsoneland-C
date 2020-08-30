@@ -1,0 +1,3 @@
+﻿  game.cpp
+FrameworkDebug_x64.lib(FrameworkDebug_x64.dll) : fatal error LNK1112: module machine type 'x64' conflicts with target machine type 'x86'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(861,5): error MSB6006: "link.exe" exited with code 1112.

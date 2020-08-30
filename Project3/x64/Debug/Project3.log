@@ -1,0 +1,34 @@
+﻿  game.cpp
+C:\Users\lvlad\source\repos\Project3\Project3\Unit.h(70,10): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\lvlad\source\repos\Project3\Project3\Unit.h(71,10): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\lvlad\source\repos\Project3\Project3\Unit.h(72,10): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\lvlad\source\repos\Project3\Project3\Unit.h(73,10): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\lvlad\source\repos\Project3\Project3\Player.h(16,15): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\lvlad\source\repos\Project3\Project3\Player.h(17,15): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\lvlad\source\repos\Project3\Project3\game.cpp(77,50): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\lvlad\source\repos\Project3\Project3\game.cpp(77,38): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\lvlad\source\repos\Project3\Project3\game.cpp(91,57): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\lvlad\source\repos\Project3\Project3\game.cpp(91,43): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\lvlad\source\repos\Project3\Project3\game.cpp(101,57): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\lvlad\source\repos\Project3\Project3\game.cpp(101,43): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\lvlad\source\repos\Project3\Project3\game.cpp(122,54): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\lvlad\source\repos\Project3\Project3\game.cpp(122,41): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\lvlad\source\repos\Project3\Project3\game.cpp(154,36): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\lvlad\source\repos\Project3\Project3\game.cpp(154,24): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  Project3.vcxproj -> C:\Users\lvlad\source\repos\Project3\x64\Debug\Project3.exe

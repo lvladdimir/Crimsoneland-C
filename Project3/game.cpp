@@ -24,34 +24,24 @@ public:
 	int mapx = 800, mapy = 640;
 	int maxbullets = 2, maxenemies = 10;
 
+	MyFramework(int new_windowx, int new_windowy, int new_mapx, int new_mapy, int new_maxbullets, int new_maxenemies)
+	{
+		windowx = new_windowx;
+		windowy = new_windowy;
+		mapx = new_mapx;
+		mapy = new_mapy;
+		maxbullets = new_maxbullets;
+		maxenemies = new_maxenemies;
+	}
+
+
 
 	virtual void PreInit(int& width, int& height, bool& fullscreen)
 	{
-		width = 800;
-		height = 640;
-		fullscreen = false;
-		read_init_file();
-		if (windowx == 0)
-		{
-			windowx = width;
-		}
 		width = windowx;
 		height = windowy;
+		fullscreen = false;
 	}
-
-	void read_init_file()
-	{
-		std::ifstream myfile;
-		myfile.open("example.txt");
-		myfile >> windowx;
-		myfile >> windowy;
-		myfile >> mapx;
-		myfile >> mapy;
-		myfile >> maxbullets;
-		myfile >> maxenemies;
-		myfile.close();
-	}
-
 	
 	virtual bool Init() {
 		player = new Player(windowx, windowy,mapx,mapy);
@@ -245,23 +235,15 @@ void ConsoleParcer(int argc, char* argv[])
 		}
 	}
 
-	std::ofstream myfile;
-	myfile.open("example.txt");
-	myfile << windowx + "\n";
-	myfile << windowy + "\n";
-	myfile << mapx + "\n";
-	myfile << mapy + "\n";
-	myfile << maxbullets + "\n";
-	myfile << maxenemies + "\n";
-	myfile.close();
-
 }
 
-
+int windowx = 800, windowy = 640;
+int mapx = 800, mapy = 640;
+int maxbullets = 2, maxenemies = 10;
 
 
 int main(int argc, char *argv[])
 {
 	ConsoleParcer(argc, argv);
-	return run(new MyFramework);
+	return run(new MyFramework(windowx,windowy,mapx,mapy,maxbullets,maxenemies));
 }
